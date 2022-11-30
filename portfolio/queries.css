@@ -1,0 +1,49 @@
+/* BELOW 1344px (84 * 16) */
+
+@media (max-width: 84em) {
+  .header-text {
+    font-size: 3.6rem;
+  }
+
+  ul li a {
+    font-size: 2.4rem;
+  }
+}
+
+/* BELOW 944px (59 * 16) */
+
+@media (max-width: 59em) {
+  .hero-text-box {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .about-me-link {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* BELOW 944px (35 * 16) */
+
+@media (max-width: 35em) {
+  .nav {
+    display: none;
+  }
+
+  .first-hero-text {
+    font-size: 3.2rem;
+  }
+
+  .name-text {
+    font-size: 4rem;
+  }
+
+  .second-hero-text {
+    font-size: 2.4rem;
+  }
+}
